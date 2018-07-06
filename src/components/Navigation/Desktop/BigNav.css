@@ -1,0 +1,25 @@
+.navDesktop{
+    list-style:none;
+    align-items: center;
+    margin:0 auto;
+    padding:5px;
+    text-align:center;
+}
+.navDesktop li{
+    display:inline;
+    margin: 0 auto;
+}
+.navDesktop a{
+    display:inline-block;
+    padding:10px;
+    font-size: 1rem;
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+@media (max-width: 499px) {
+    .navDesktop {
+        display: none;
+    }
+}
